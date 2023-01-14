@@ -1,0 +1,27 @@
+.section {
+  .publication {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+  }
+
+  .cat {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 0 3rem;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    img {
+      max-height: 20rem;
+      margin-bottom: .75rem;
+    }
+  }
+}

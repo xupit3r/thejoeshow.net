@@ -5,8 +5,23 @@ $freesia: #EFE7BC;
 $mint: #F0F7E0;
 $teal_green: #3D5B59;
 $puce: #490034;
+$blue_grotto: #127F9C;
+$misty_blue: #578FAD;
+$magenta: #AC4980;
 
 body {
   background-color: $mint;
   color: $puce;
+}
+
+a {
+  color: $blue_grotto;
+
+  &:visited {
+    color: $magenta;
+  }
+
+  &:hover {
+    color: $teal_green;
+  }
 }

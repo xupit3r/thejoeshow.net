@@ -3,6 +3,16 @@ body {
   color: #490034;
 }
 
+a {
+  color: #127F9C;
+}
+a:visited {
+  color: #AC4980;
+}
+a:hover {
+  color: #3D5B59;
+}
+
 @font-face {
   font-family: "Space Grotesk";
   src: url("/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
@@ -10,6 +20,37 @@ body {
 body {
   font-size: 16px;
   font-family: "Space Grotesk";
+}
+
+body {
+  padding: 0 4rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.section .publication {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+.section .cat {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  padding: 0 3rem;
+}
+.section .cat:first-child {
+  padding-left: 0;
+}
+.section .cat:last-child {
+  padding-right: 0;
+}
+.section .cat img {
+  max-height: 20rem;
+  margin-bottom: 0.75rem;
 }
 
 /*# sourceMappingURL=site.css.map */
