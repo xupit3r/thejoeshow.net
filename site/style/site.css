@@ -1,3 +1,15 @@
+body {
+  background-color: #F0F7E0;
+  color: #490034;
+}
 
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+}
+body {
+  font-size: 16px;
+  font-family: "Space Grotesk";
+}
 
 /*# sourceMappingURL=site.css.map */

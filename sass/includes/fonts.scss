@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+$site_font: "Space Grotesk";
+
+body {
+  font-size: 16px;
+  font-family: $site_font
+}
