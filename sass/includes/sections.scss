@@ -23,5 +23,22 @@
       max-height: 20rem;
       margin-bottom: .75rem;
     }
+
+    @media (max-width: 60rem) {
+      padding: 2rem;
+      max-width: 100%;
+
+      &:first-child {
+        padding-left: 2rem;
+      }
+
+      &:last-child {
+        padding-right: 2rem;
+      }
+
+      img {
+        max-height: 100%;
+      }
+    }
   }
 }

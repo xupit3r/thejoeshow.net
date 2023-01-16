@@ -31,6 +31,15 @@ body {
   flex-direction: row;
 }
 
+@media (max-width: 60rem) {
+  body {
+    padding: 0 2rem;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section .publication {
   display: flex;
   flex-direction: column;
@@ -51,6 +60,21 @@ body {
 .section .cat img {
   max-height: 20rem;
   margin-bottom: 0.75rem;
+}
+@media (max-width: 60rem) {
+  .section .cat {
+    padding: 2rem;
+    max-width: 100%;
+  }
+  .section .cat:first-child {
+    padding-left: 2rem;
+  }
+  .section .cat:last-child {
+    padding-right: 2rem;
+  }
+  .section .cat img {
+    max-height: 100%;
+  }
 }
 
 /*# sourceMappingURL=site.css.map */
