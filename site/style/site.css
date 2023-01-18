@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  padding: 0 4rem;
+  padding: 2rem 6rem;
 }
 
 .flex-row {
@@ -33,7 +33,7 @@ body {
 
 @media (max-width: 60rem) {
   body {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
   }
   .flex-row {
     display: flex;
@@ -60,6 +60,9 @@ body {
 .section .cat img {
   max-height: 20rem;
   margin-bottom: 0.75rem;
+}
+.section .cat .caption {
+  font-size: 0.75rem;
 }
 @media (max-width: 60rem) {
   .section .cat {
